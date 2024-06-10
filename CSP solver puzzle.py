@@ -307,14 +307,8 @@ sudoku_board3 = [
     [0, 0, 0, 4, 1, 9, 0, 0, 5],
     [0, 0, 0, 0, 8, 0, 0, 7, 9]
 ]
-"""
-print("Sudoku solved:")
-solution = solve_sudoku(sudoku_board)
-if solution is not None:
-    print_board(solution)
-else:
-    print("No solution exists for the given Sudoku board.")
-"""
+
+
 print()
 
 print("Sudoku solved with forward checking:")
